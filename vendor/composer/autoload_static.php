@@ -11,6 +11,10 @@ class ComposerStaticInit409c19fd5b91d00a465c88745d95ded0
     );
 
     public static $prefixLengthsPsr4 = array (
+        'M' => 
+        array (
+            'Marsrover\\' => 10,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -19,6 +23,10 @@ class ComposerStaticInit409c19fd5b91d00a465c88745d95ded0
     );
 
     public static $prefixDirsPsr4 = array (
+        'Marsrover\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',

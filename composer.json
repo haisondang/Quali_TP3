@@ -8,7 +8,11 @@
             "email": "hai-son.dang@etu.univ-tlse2.fr"
         }
     ],
-
+    "autoload": {
+        "psr-4": {
+            "Marsrover\\": "src/"
+        }
+    },
     "require": {
     },
     "require-dev": {
