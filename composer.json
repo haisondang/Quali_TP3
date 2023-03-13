@@ -1,0 +1,17 @@
+{
+    "name": "iut/mars-rover-iut",
+    "description": "this is a description field used to describe the project",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Hai Son Dang",
+            "email": "hai-son.dang@etu.univ-tlse2.fr"
+        }
+    ],
+
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
