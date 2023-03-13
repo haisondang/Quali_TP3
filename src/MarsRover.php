@@ -4,8 +4,8 @@ class MarsRover {
 
     private $position;
     private $obstacles;
-    public function __construc(){
-        $this->position=array(0,0,"N");
+    public function __construct(){
+        $this->position=[0,0,"N"];
         $this->obstacles=[];
     }
 
@@ -28,7 +28,7 @@ class MarsRover {
 
         $moves=str_split($move);
         $stop = false;
-        for ($i = 0; $i<count($moves)&&$obs=false; $i++){
+        for ($i = 0; $i<count($moves)&& $stop=false; $i++){
             switch(moves[$i]){
                 case "L":
                     switch($this->position[2]){
