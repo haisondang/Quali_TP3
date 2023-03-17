@@ -28,8 +28,8 @@ class MarsRover {
 
         $moves=str_split($move);
         $stop = false;
-        for ($i = 0; $i<count($moves)&& $stop=false; $i++){
-            switch(moves[$i]){
+        for ($i = 0; $i<count($moves) && $stop==false; $i++){
+            switch($moves[$i]){
                 case "L":
                     switch($this->position[2]){
                         case "N":
@@ -46,6 +46,7 @@ class MarsRover {
                             break;
                         default:
                             echo "erreur!";
+                            break;
                     }
                     break;
                 case "R":
@@ -64,6 +65,7 @@ class MarsRover {
                             break;
                         default:
                             echo "erreur!";
+                            break;
                     }
                     break;
                 case "M":
@@ -118,10 +120,11 @@ class MarsRover {
                             break;
                         default:
                             echo "erreur!";
+                            break;
                     }
                     break;
                 default:
-                    echo "erreur!";
+                    break;
             }
         }
         $this->position[0]=$this->position[0]%5;

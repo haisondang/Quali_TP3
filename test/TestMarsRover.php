@@ -99,7 +99,7 @@ class TestMarsRover extends TestCase {
         $marsRover1.addObstacle(2, 3);
 
         //WHEN
-        $position1 = $marsRover1->move("MMMLMMM");
+        $position1 = $marsRover1->move("MMMRMMM");
 
         //THEN
         $this->assertEquals("1, 3, W", $position1);

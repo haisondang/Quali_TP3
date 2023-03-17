@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9f38927265ad40bf938ffa9d8fd9af3304574c51',
+        'reference' => '31132727c38d0557561cdbbc840be7e224e6ffc4',
         'name' => 'iut/mars-rover-iut',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9f38927265ad40bf938ffa9d8fd9af3304574c51',
+            'reference' => '31132727c38d0557561cdbbc840be7e224e6ffc4',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
