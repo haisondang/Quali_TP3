@@ -96,12 +96,12 @@ class TestMarsRover extends TestCase {
     function shouldHaveObstacle() {
         //GIVEN
         $marsRover1 = new MarsRover();
-        $marsRover1.addObstacle(2, 3);
+        $marsRover1->addObstacle([2, 3]);
 
         //WHEN
         $position1 = $marsRover1->move("MMMRMMM");
 
         //THEN
-        $this->assertEquals("1, 3, W", $position1);
+        $this->assertEquals("1, 3, E", $position1);
     }
 }
